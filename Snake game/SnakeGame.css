@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nayi cheez ho seekhi hai */
+:root{
+    /* background Color */
+    --bg-primary-color:#0c0c0c;
+
+    /* text color */
+    --text-color:rgb(232, 232, 232);
+
+    /* Spacing Variable */
+    --space-xs:4px;
+    --space-sm:8px;
+    --space-md:16px;
+    --space-lg:24px;
+    --space-xl:32px;
+    --space-2xl:40px;
+    --space-2xl:48px;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color: var(--text-color);
+    background-color:var(--bg-primary-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+#claim{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-md);
+    margin: var(--space-lg);
+    border-radius: var(--space-lg);
+    border: 2px solid white;
+}
+
+#board{
+    display: grid;
+    height: 70vh;
+    border: 2px solid white;
+    margin: var(--space-lg);
+}
