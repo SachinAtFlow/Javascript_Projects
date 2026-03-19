@@ -50,12 +50,18 @@ main{
     height: 70vh;
     border: 2px solid white;
     margin: var(--space-lg);
-    grid-template-columns: repeat(auto-fit,minmax(30px,1fr));
+    /* grid-template-columns: repeat(auto-fit,minmax(30px,1fr)); */
     /* grid-template-rows:repeat(auto-fit,minmax(30px,1fr)); */
 }
 .block{
-    height: 30px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
     border: 1px solid white;
     box-sizing:border-box;
+}
+.fill{
+    background-color: #f6ff00;
+}
+.foodColor{
+    background-color: #ff0000;
 }
