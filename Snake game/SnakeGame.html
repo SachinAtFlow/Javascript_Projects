@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="SnakeGame.css">
     <title>SnakeGame</title>
 </head>
+
 <body>
+    <section class="preFiller">
+        <div class="welcome">Welcome to Snake Game</div>
+        <button class="btn btn-start">Start</button>
+    </section>
+
     <main>
         <section id="claim">
             <div class="infos">
@@ -18,16 +25,22 @@
                 <h3>Score :
                     <span id="score">0</span>
                 </h3>
-            </div><div class="infos">
+            </div>
+            <div class="infos">
                 <h3>Time :
                     <span id="time">00:00</span>
                 </h3>
             </div>
         </section>
         <section class="board">
-            
+
         </section>
     </main>
-    <script src="SnakeGame.js"></script>
+    <section class="postFiller">
+        <div class="welcome">Game Over</div>
+        <button class="btn btn-restart">Restart</button>
+    </section>
+    <script src="SnakeGame2.js"></script>
 </body>
+
 </html>

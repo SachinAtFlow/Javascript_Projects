@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Nayi cheez ho seekhi hai */
@@ -36,6 +36,37 @@ main{
     height: 100%;
 }
 
+/* .preFiller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+} */
+
+.welcome{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: yellow;
+    width: 10rem;
+    height: 2rem;
+    margin: var(--space-md);
+    border-radius: 25px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+
 #claim{
     display: flex;
     justify-content: space-between;
@@ -50,18 +81,36 @@ main{
     height: 70vh;
     border: 2px solid white;
     margin: var(--space-lg);
+    justify-content: center;
+    align-items: center;
+    gap:0;
     /* grid-template-columns: repeat(auto-fit,minmax(30px,1fr)); */
     /* grid-template-rows:repeat(auto-fit,minmax(30px,1fr)); */
 }
 .block{
-    height: 100%;
-    width: 100%;
+    height: 50px;
+    width: 50px;
     border: 1px solid white;
-    box-sizing:border-box;
+    /* border: 1px solid rgba(255,255,255,0.05); */
+    /* border-radius: 8px; */
 }
+
 .fill{
     background-color: #f6ff00;
 }
+
+/*
 .foodColor{
     background-color: #ff0000;
-}
+} */
+
+/* .postFiller{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+} */
