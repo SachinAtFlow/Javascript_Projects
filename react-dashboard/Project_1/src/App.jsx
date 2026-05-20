@@ -13,17 +13,17 @@ function App() {
     {
       Dp: tanjiro,
       title: "Demon Slayer",
-      price: 999
+      description: "The Story of Tanjiro who fought for his Family"
     },
     {
       Dp: Devil,
       title: "Devil May Cry",
-      price: 799
+      description: "The man who insist the devil to cry"
     },
     {
       Dp: Sekiro,
       title: "Sekiro",
-      price: 999
+      description: "The man of Iron who never Gave Up"
     }
   ];
   return (
@@ -36,7 +36,7 @@ function App() {
             key={index}
             Dp={item.Dp}
             title={item.title}
-            price={item.price}
+            description={item.description}
             />
           );
         })}

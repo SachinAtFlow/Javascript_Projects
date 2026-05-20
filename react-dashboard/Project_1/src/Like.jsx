@@ -7,7 +7,7 @@ function Like(){
         <button
         className={`text-3xl ${liked ? "text-red-500" : "text-white"}`}
         onClick={()=> setLiked(!liked)}
-        >♥</button>
+        >&#10084;</button>
     )
 }
 export default Like;
