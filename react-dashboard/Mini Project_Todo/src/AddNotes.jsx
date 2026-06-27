@@ -11,7 +11,7 @@ function AddNotes() {
         setInput("");
     }
 
-    //Deleting element from the Card on clickin to X
+    //Deleting element from the Card on clicking to X
     function delNote(indexToDelete) {
         {
             setNotes(notes.filter((item, index) => index !== indexToDelete)

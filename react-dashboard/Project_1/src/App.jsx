@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import Profile from "./Profile";
 import Greet from "./Greet";
 import tanjiro from "./assets/tanjiro.jpg";
 import Sekiro from "./assets/Sekiro.jpg";
 import Devil from "./assets/Devil.png";
+
+
 
 
 

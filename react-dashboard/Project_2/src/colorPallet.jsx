@@ -11,7 +11,7 @@ function ColorPallet({ color, onColorChange }) {
       
       {colorList.map((color) => {
         return (
-          <button className={`text-${color.toLowerCase()}-500`}
+          <button className={`text-${color.toLowerCase()}-500 rounded-lg shadow-lg`}
             key={color}
             onClick={() => {
               console.log('clicked ' + color)
